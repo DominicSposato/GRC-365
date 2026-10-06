@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sposato_Assignment_1</title> 
+	<style>
+		#page{
+			width: 926px;
+			height: 1500px;
+			background: #f7f7f7;
+			margin: 0 auto;
+			padding: 0 auto;
+			border: 1px solid darkgray;
+			box-shadow: 2px 3px 6px darkgray;
+		}
+		h1{
+			text-align: center;
+			font-weight: 300px; 
+			font-family: "Times New Roman"; 
+			font-size: 4rem; 
+		}
+		h2{
+			text-align: center;
+			font-weight: 300px; 
+			font-family: "Times New Roman"; 
+			font-size: 4rem; 
+			margin-bottom: -10px;
+		}
+		#photo{
+			width: 400px;
+			float: left;
+			margin: 0 24px 12px 0;
+			border: 1px solid black;
+			box-shadow: 2px 3px 6px black;
+		}
+		p{
+			font-family:  'Myriad Pro',  'Helvetica', 'Arial'; 
+			font-size: 14pt;
+			line-height: 1.6em;
+			width: 820px;
+			margin: 0 auto;
+		}
+		audio{
+			display: block;
+			margin: 0 auto;
+		}
+		iframe{
+			width: 640px;
+			height: 360px;
+			display: block;
+			margin: 36px auto;
+			border: 1px solid gray;
+			box-shadow: 2px 3px 6px gray; 	
+		}
+				ul{
+			width: 100%;
+			margin-top: -1px;
+			margin-left:-40px;
+		}
+		
+		li{
+			font-family:  'Myriad Pro',  'Helvetica', 'Arial';
+			list-style: none;
+			float: left;
+			width:33.3%;
+			height: 30px;
+			text-align: center;
+			background: black;
+			color: white;
+			padding-top: 10px;
+			font-weight: bold;
+		}
+		a li {
+		color: white;
+		}
+		li:hover, a li:hover{
+background: #4a3459;
+}
+		audio{
+		display: block;
+		margin: 0 auto;
+		}
+		iframe{
+		width: 640px;
+		height: 360px;
+		display: block;
+		margin: 36px auto;
+		border: 1px solid #010101;
+		box-shadow: 2px 3px 6px gray;
+		}
+		.gridlayout {
+		display: grid;
+		grid-template-columns: 1fr 1fr;  
+		grid-template-rows: repeat(3, 1fr);
+		gap: 4px;                          
+		max-width: 600px;
+		height: 600px;                    
+		padding: 20px;
+		margin: 0 auto;
+		}
+		.gridlayout img {
+ 		width: 100%;
+ 		height: 100%;
+ 		object-fit: cover;  
+ 		display: block;
+		}
+		.gridlayout .tall {
+ 		grid-column: 2;      
+ 		grid-row: 1 / span 5;
+		}
+	</style> 
+</head>
+
+<body>
+	<div id="page">
+				<ul>
+			<a href="Index.html"><li>Home</li>
+			</a>
+			<a href="ToonTable.html"><li>Toon Table</li></a>
+			<a href="Gallery.html"><li>Gallery</li></a> 
+		</ul>
+		
+	<h1><u>Image Gallary</u></h1>
+<div class="gridlayout">
+ <img src="Koko_the_Clown.webp"> 
+ <img src="felix_the_cat_a.webp">
+ <img src="tumblr_n987hhoqpf1r337tvo1_250.jpg">
+ <img class="tall" src="Trolley_Troubles_official_poster_long.jpg">
+</div>
+</div>
+</body>
+</html>
