@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forum</title>
+	<style>
+		#page{
+			width: 926px;
+			height: 1500px;
+			background: #f7f7f7;
+			margin: 0 auto;
+			padding: 0 auto;
+			border: 1px solid darkgray;
+			box-shadow: 2px 3px 6px darkgray;
+		}
+		h2{
+			text-align: center;
+			font-weight: 300px; 
+			font-family: "Times New Roman"; 
+			font-size: 4rem; 
+			margin-bottom: -10px;
+		}
+
+		p{
+			font-family:  'Myriad Pro',  'Helvetica', 'Arial'; 
+			font-size: 14pt;
+			line-height: 1.6em;
+			width: 820px;
+			margin: 25px auto;
+			align-content: center;
+			text-align: center;
+			
+		}
+
+		ul{
+			width: 100%;
+			margin-top: -1px;
+			margin-left:-40px;
+		}
+		
+		li{
+			font-family:  'Myriad Pro',  'Helvetica', 'Arial';
+			list-style: none;
+			float: left;
+			width: 25%;
+			height: 30px;
+			text-align: center;
+			background: black;
+			color: white;
+			padding-top: 10px;
+			font-weight: bold;
+		}
+		a li{
+			color: white;
+		}
+		li:hover, a li:hover{
+			background: lightgray;
+		}
+		table {
+			width: 90%;
+			align-items: center;
+			text-align: center;
+			margin: 30px auto 0;
+			border-collapse: collapse;
+		}
+		th, td{
+			font-family:  'Myriad Pro',  'Helvetica', 'Arial';
+			border: 1px solid black;
+			padding: 11px;
+		}
+		
+		th{
+			background: darkgrey;
+		}
+		
+		form{
+			background: #CBCBCB;
+			border-radius: 16px;
+			padding: 28px 30px;
+			max-width: 780px;
+			margin: 0 auto;
+			margin-top: 50px;
+	    }
+		
+		label{
+			display: block;
+			font-size: 20px;
+			margin-bottom: 2px;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		
+		input, textarea{
+			width: 100%;
+			box-sizing: border-box;
+			border: 1px solid #777;
+			background: #fff;
+			padding: 10px;
+			font-size: 17px;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			margin-bottom: 4px;	
+		}
+		
+		button{
+			margin-top: 12px;
+			padding: 12px 28px;
+			font-size: 18px;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			background: #848484;
+			color: #fff;
+			border: none;
+			border-radius: 6px;
+			cursor: pointer;	
+		}
+		
+		
+	</style> 
+</head>
+
+<body>
+	<div id="page">
+		<ul>
+			<a href="Index.html"><li>Home</li></a>
+			
+			<a href="ToonTable.html"><li>Toon Table</li></a>
+			<a href="Gallery.html"><li>Gallery</li></a> 
+			<li>Contact Us!</li>
+		</ul>
+	<h2>Contact Page</h2>
+		<form action="#" method="post">
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="fname" required>
+			
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lname" required>
+			
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" required>
+			
+		<label for="subject">Subject</label>
+		<input type="text" id="subject" name="subject" required>
+			
+		<label for="message">Message</label>
+		<textarea id="message" name="message" placeholder="Write Message Here"></textarea>
+			
+		<button type="submit">Send</button>
+		
+		</form>
+	</div>
+</body>
+
+</html>
